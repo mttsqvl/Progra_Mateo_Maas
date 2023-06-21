@@ -2,21 +2,21 @@
 #include <string.h>
 #include <conio.h>
 
+// Mateo Maas Esquivel
+
 using namespace std;
 
-
-
-int main() {
-	int x=5;
-	char A[x];
+int main(){
+	int x=20;
+	char A[20];
 	
 	cout<<"Ingresa una frase."<<endl;
-	cin.getline(A, x, '/n');
+
+	cin.getline(A, 20, '\n');
 	cout<<A<<endl;
 	
-	int y=0;
 	cout<<"La frase en orden inverso es:"<<endl;
-	for(int x=5; x<=y; x--){
-	cout<<A[x]<<endl;
-}
+	for(int z=x-1; z>=0; z--){
+	cout<<A[z];
+	}
 }
